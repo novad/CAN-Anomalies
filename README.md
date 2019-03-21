@@ -1,6 +1,6 @@
 *work in progress...*
 
-Repo for generating anomalies of CAN frames.
+Repo for generating anomalies using CAN data frames.
 
 These anomaly functions were built to be used with the RNN-based anomaly detection systems,
 therefore it uses a binary data representation rather than the hexadecimal representation obtained from a CAN dump. 
@@ -10,8 +10,7 @@ including length, type, variability, and number of unique values.
 It is required to generate field anomalies. 
 
 Dependencies:
-* Before using this you must have the data file with the binary representation of the ```DATA``` field.
-And place it on the ```data``` directory.
+* Before using this you must have the data file with the binary representation of the ```DATA``` field, and place it in a ```/data``` directory.
 * python 3.6+
 * pandas 
 * numpy
